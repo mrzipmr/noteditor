@@ -273,6 +273,17 @@
                 .html-title-block, .vocabulary-master-block { border-radius: 0; }
                 .vocab-item-word { flex-direction: column; align-items: flex-start; } .dict-buttons { margin-top: 8px; }
             }
+			
+			/* Drag and Drop Visual Feedback */
+			.dragging {
+				opacity: 0.5;
+				background: #cce5ff;
+			}
+
+			.drop-target-top {
+				border-top: 3px solid var(--primary-color) !important;
+				transform: scale(1.01);
+			}
         </style>
     </template>
 
